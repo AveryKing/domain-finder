@@ -1,6 +1,5 @@
 import axios from 'axios';
 import cors from 'cors';
-import { createInterface } from 'readline';
 import express from 'express';
 const app = express();
 app.use(cors());
